@@ -15,6 +15,7 @@ export const BookCard: React.FC<BookCardProps> = ({ book, onPress }) => {
         <Text style={styles.title}>{book.title}</Text>
         <Text style={styles.author}>{book.author}</Text>
         <Text style={styles.price}>${book.price}</Text>
+        <Text style={styles.rating}>${book.rating}</Text>
       </View>
     </TouchableOpacity>
   );
